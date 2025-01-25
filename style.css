@@ -19,6 +19,14 @@ h1 {
     background-position: center;
 }
 
+/*for the about page*/
+.aboutbody{
+    background: url(https://images.pexels.com/photos/974314/pexels-photo-974314.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) no-repeat;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
 /*this is for the navigation bar*/
 header{
     width: 100%;
@@ -201,7 +209,7 @@ section {
   
   .about-text h1 {
     font-size: 36px;
-    color: #a24a69;
+    color: #944242;
     margin-bottom: 20px;
   }
   
@@ -212,13 +220,14 @@ section {
   }
   
   .learn-more-btn {
-    background-color: #a24a69;
+    background-color: #426048;
     color: #fff;
     padding: 10px 20px;
     border: none;
     font-size: 16px;
     cursor: pointer;
     text-transform: uppercase;
+    margin: 20px
   }
   
   .learn-more-btn:hover {
@@ -230,9 +239,12 @@ section {
     max-width: 50%;
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
   }
   
   .about-image img {
     width: 100%;
     border-radius: 10px;
+    margin-bottom: 30px;
+    margin-left: 30px;
   }
