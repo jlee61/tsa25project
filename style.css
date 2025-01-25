@@ -125,8 +125,10 @@ a,button{
     height: 90%;
 }
 
+/*card*/
 .flip-container {
     perspective: 1000px;
+    margin: 20px;
 }
 
 .flip-card {
@@ -173,7 +175,7 @@ a,button{
 }
 
 .flip-card-back {
-    background-color: #007BFF;
+    background-color: #386740;
     color: white;
     transform: rotateY(180deg);
 }
