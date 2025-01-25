@@ -123,13 +123,11 @@ a,button{
     flex: 1;
     display: flex;
     justify-content: center;
-
     align-items: center;
     background-color: #f9f9f9;
 }
 
 .image1 img {
-    max-width: 90%;
     height: 90%;
 }
 
