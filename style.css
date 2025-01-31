@@ -126,8 +126,13 @@ a,button{
 /*card*/
 .flip-container {
     perspective: 1000px;
-    margin: 20px;
+    margin: 20px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
 }
+
 
 .flip-card {
     width: 300px;
@@ -178,38 +183,38 @@ a,button{
     transform: rotateY(180deg);
 }
 
-/* General Section Styling */
+/* test 2 stuff */
 section {
-    display: flex; /* Ensures each section has a side-by-side layout */
+    display: flex; 
     align-items: center;
     justify-content: space-between;
     padding: 50px;
-    flex-wrap: wrap; /* Allows content to stack on smaller screens */
-  }
+    flex-wrap: wrap;
+}
   
-  .about-section, .menu-section {
+.about-section, .menu-section {
     width: 100%;
     margin-bottom: 50px;
-  }
+}
   
-  .about-text {
+.about-text {
     flex: 1;
     max-width: 50%;
-  }
+}
   
-  .about-text h1 {
+.about-text h1 {
     font-size: 36px;
     color: #a24a69;
     margin-bottom: 20px;
-  }
+}
   
-  .about-text p {
+.about-text p {
     font-size: 18px;
     margin-bottom: 20px;
     line-height: 1.8;
-  }
+}
   
-  .learn-more-btn {
+.learn-more-btn {
     background-color: #a24a69;
     color: #fff;
     padding: 10px 20px;
@@ -217,20 +222,41 @@ section {
     font-size: 16px;
     cursor: pointer;
     text-transform: uppercase;
-  }
+}
   
-  .learn-more-btn:hover {
+.learn-more-btn:hover {
     background-color: #872a50;
-  }
+}
   
-  .about-image {
+.about-image {
     flex: 1;
     max-width: 50%;
     display: flex;
     justify-content: center;
-  }
+}
   
-  .about-image img {
+.about-image img {
     width: 100%;
     border-radius: 10px;
-  }
+}
+
+/*menu stuff*/
+.menuheader{
+    background: rgb(136, 123, 123);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.content2{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: left;
+    color: #fff;
+    padding-left: 50px;
+
+}
+
+
