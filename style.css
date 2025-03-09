@@ -354,3 +354,15 @@ section {
     margin-bottom: 20px; 
     margin-top: 20px;
 }
+
+.flip-card-front .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: white; /* Ensures text is visible */
+    z-index: 2;
+}
