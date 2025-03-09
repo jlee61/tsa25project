@@ -114,7 +114,7 @@ a,button{
 }
 
 .text1 button {
-    background-color: #346e3f;
+    background-color: #254a2c;
     color: white;
     padding: 10px 10px;
     border: none;
@@ -266,6 +266,7 @@ section {
     font-size: 16px;
     cursor: pointer;
     text-transform: uppercase;
+    border-radius: 4px;
 }
   
 .learn-more-btn:hover {
@@ -368,7 +369,7 @@ section {
     align-items: center; 
     text-align: center; 
     height: 80vh; 
-    background: url('https://images.pexels.com/photos/1435899/pexels-photo-1435899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center;
+    background: url('https://images.pexels.com/photos/3084550/pexels-photo-3084550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center;
     background-size: cover;
     position: relative;
 }
