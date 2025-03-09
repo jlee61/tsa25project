@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Courier New', monospace;
     box-sizing: border-box;
+
 }
 /*the title font on homepage and ig the menu now*/
 h1 {
@@ -150,14 +151,13 @@ a,button{
 /*card*/
 .flip-container {
     perspective: 1000px;
-    margin: 20px 10px;
+    margin: 20px 0px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px;
+    justify-content: center;
+    gap: 50px;
     width: 100%;
 }
-
 
 .flip-card {
     width: 400px;
@@ -194,19 +194,41 @@ a,button{
 
 .flip-card-front {
     background-color: #fff;
+    z-index: 2;
 }
 
 .flip-card-front img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    opacity: 0.5;
+}
+
+.flip-card-front .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px 100px;
+    border-radius: 1px;
 }
 
 .flip-card-back {
     background-color: #386740;
     color: white;
     transform: rotateY(180deg);
+    font-size: 20px;
+    padding: 20px;
+    z-index: 1;
 }
+
+
 
 /* test 2 stuff */
 section {
@@ -362,7 +384,7 @@ section {
     margin-bottom: 20px; 
     margin-top: 20px;
 }
-/*source stuff */
+
 .source {
     display: flex;
     justify-content: center; 
