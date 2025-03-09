@@ -5,16 +5,23 @@
     box-sizing: border-box;
 
 }
-/*the title font on homepage*/
+/*the title font on homepage and ig the menu now*/
 h1 {
     font-weight: bold;
-    color: #fff;
-    font-size: 40px;
+    color: #ffffff;
+    font-size: 70px;
+  }
+
+  h2 {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 30px;
   }
 
 /*for the homepage*/
 .homebody{
-    background: url(https://images.pexels.com/photos/7488985/pexels-photo-7488985.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) no-repeat;
+    filter: brightness(70%);
+    background: url(https://images.pexels.com/photos/326281/pexels-photo-326281.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) no-repeat;
     height: 90vh;
     background-size: cover;
     background-position: center;
@@ -376,4 +383,56 @@ section {
     margin-bottom: 20px; 
     margin-top: 20px;
 }
+<<<<<<< HEAD
 
+=======
+/*source stuff */
+.source {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    height: 80vh; 
+    background: url('https://images.pexels.com/photos/1435899/pexels-photo-1435899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+.source-box {
+    background-color: rgba(49, 68, 51, 0.88); 
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 80%;
+}
+
+.source-box h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.source-box p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.source-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.source-box li {
+    margin: 10px 0;
+}
+
+.source-box a {
+    color: #c1f1da; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.source-box a:hover {
+    text-decoration: underline;
+}
+>>>>>>> 5f07cef2b9da894c3e82969982aada5c1edc17eb
