@@ -346,4 +346,11 @@ section {
     background-color: #ddd; 
 }
 
-
+.menu-heading {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #333; 
+    margin-bottom: 20px; 
+    margin-top: 20px;
+}
