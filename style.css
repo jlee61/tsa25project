@@ -272,7 +272,7 @@ section {
   
 .about-text {
     flex: 1;
-    max-width: 50%;
+    max-width: 66%;
     margin-right: 30px;
 }
   
@@ -323,9 +323,10 @@ section {
   
 .about-image {
     flex: 1;
-    max-width: 50%;
+    max-width: 30%;
     display: flex;
-    justify-content: center;
+    margin-top: 10x;
+    margin-right: 10px;
 }
   
 .about-image img {
