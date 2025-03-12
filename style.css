@@ -2,13 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Extrafont3;
-
+    
 }
 /*Original is 'courier-new', 'Courier New', monospace*/
 @font-face {
-    font-family: Extrafont;
-    src: url('Dosis-Regular.ttf');
+    font-family: Italicfont;
+    src: url('CormorantGaramond-Italic.ttf');
     font-size: medium;
     font-weight: 400;
     font-style: normal;
@@ -34,12 +33,14 @@ h1 {
     font-weight: bold;
     color: #ffffff;
     font-size: 70px;
+    font-family: Extrafont3;
   }
 
 h2 {
     font-weight: bold;
     color: #ffffff;
     font-size: 30px;
+    font-family: Extrafont3;
   }
 
 /*for the homepage*/
@@ -49,6 +50,8 @@ h2 {
     height: 90vh;
     background-size: cover;
     background-position: center;
+    font-family: Extrafont3;
+
 }
 
 /*for the about page*/
@@ -57,6 +60,7 @@ h2 {
     height: 50vh;
     background-size: cover;
     background-position: center;
+    font-family: Extrafont3;
 }
 
 /*this is for the navigation bar*/
@@ -68,7 +72,7 @@ header{
     align-items: center;
     padding: 30px 10%;
     background: rgba(0, 0, 0, 0.7);
-
+    font-family: Extrafont3;
 }
 
 /*if the logo becomes a picture we can get rid of this*/
@@ -78,7 +82,7 @@ header{
     color: #c8dbc8;
     letter-spacing: 1.5px;
     cursor: pointer;
-
+    font-family: Extrafont3;
 }
 
 /*this is the navi bar options*/
@@ -86,6 +90,7 @@ nav li{
     display: inline-block;
     list-style: none;
     padding: 0px 20px;
+    font-family: Extrafont3;
 }
 a,button{
     font-size: 16px;
@@ -93,6 +98,7 @@ a,button{
     color:#95a595;
     text-decoration: none;
     cursor: pointer;
+    font-family: Extrafont3;
 }
 
 /*this is the main title ig name*/
@@ -103,7 +109,7 @@ a,button{
     transform: translateY(-50%);
     text-align: center;
     color: #fff;
-    font-family: "Extrafont";
+    font-family: Extrafont3;
 
 }
 
@@ -113,6 +119,7 @@ a,button{
     width: 100%;
     height: 50vh; 
     position: relative;
+    font-family: Extrafont3;
 }
 
 /* left side: Text */
@@ -125,18 +132,20 @@ a,button{
     padding: 10px;
     background-color: #b3a79d;
     text-align: center;
-   
+    font-family: Extrafont3;
 }
 
 .text1 h1 {
     margin-bottom: 20px;
     font-size: 36px;
+    font-family: Extrafont3;
 }
 
 .text1 p {
     margin-bottom: 20px;
     font-size: 16px;
     color: #333;
+    font-family: Extrafont3;
 }
 
 .text1 button {
@@ -147,6 +156,7 @@ a,button{
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
+    font-family: Extrafont3;
 }
 
 .text1 button:hover {
@@ -243,6 +253,7 @@ a,button{
     padding: 20px 1000px;
     white-space:nowrap;
     border-radius: 1px;
+    font-family: Extrafont3;
 }
 
 .flip-card-back {
@@ -254,11 +265,20 @@ a,button{
     z-index: 1;
 }
 
-.description {
+.cardgrouping {
     flex: 1;
     padding-right: 15px;
     border-right: 2px solid white;
+}
 
+.description {
+    font-family: Italicfont;
+    padding-bottom: 5px;
+
+}
+
+.classification {
+    font-family: Extrafont3;
 }
 
 .price {
@@ -266,6 +286,7 @@ a,button{
     font-size: 18px;
     white-space: no-wrap;
     padding-left: 15px;
+    font-family: Extrafont3;
 }
 
 /* test 2 stuff */
@@ -275,6 +296,7 @@ section {
     justify-content: space-between;
     padding: 50px;
     flex-wrap: wrap;
+    font-family: Extrafont3;
 }
   
 .about-section, .menu-section {
@@ -420,8 +442,15 @@ section {
     font-size: 32px;
     font-weight: bold;
     color: #333; 
-    margin-bottom: 20px; 
-    margin-top: 20px;
+    margin-bottom: 40px; 
+    margin-top: 30px;
+}
+
+.angry-message {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
 }
 
 .source {
@@ -478,7 +507,7 @@ section {
     color: white;
     text-align: center;
     padding: 20px 10px;
-    font-family: Arial, sans-serif;
+    font-family: Extrafont3;
 }
 
 .footer-container {
