@@ -254,7 +254,19 @@ a,button{
     z-index: 1;
 }
 
+.description {
+    flex: 1;
+    padding-right: 15px;
+    border-right: 2px solid white;
 
+}
+
+.price {
+    font-weight: bold;
+    font-size: 18px;
+    white-space: no-wrap;
+    padding-left: 15px;
+}
 
 /* test 2 stuff */
 section {
