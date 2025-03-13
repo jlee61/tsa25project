@@ -257,7 +257,7 @@ a,button{
 }
 
 .flip-card-back {
-    background-color: #386740;
+    background-color: rgba(67, 88, 69, 0.88);
     color: white;
     transform: rotateY(180deg);
     font-size: 20px;
