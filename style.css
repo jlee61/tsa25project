@@ -73,6 +73,7 @@ header{
     padding: 30px 10%;
     background: rgba(0, 0, 0, 0.7);
     font-family: Extrafont3;
+    z-index: 100;
 }
 
 /*if the logo becomes a picture we can get rid of this*/
