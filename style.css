@@ -467,6 +467,8 @@ section {
 
 .dropdown:hover .dropbtn {
     background-color: #ddd; 
+    padding: 2px 0px;
+    border-radius: 2px;
 }
 
 .menu-heading {
