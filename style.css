@@ -28,6 +28,12 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: Logofont;
+    src: url('RougeScript-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
 /*the title font on homepage and ig the menu now*/
 h1 {
     font-weight: bold;
@@ -46,11 +52,19 @@ h2 {
 
 h3 {
     color: white;
-    font: 27px;
+    font-size: 17px;
     font-family: Extrafont3;
     align-items: left;
     padding-left: 10px;
     padding-bottom: 20px;
+}
+
+h4 {
+    color: black;
+    font-size: 25px;
+    padding: 10px 0px;
+    padding-bottom: 30px;
+
 }
 
 .shadow {
@@ -96,7 +110,7 @@ header{
     color: #c8dbc8;
     letter-spacing: 1.5px;
     cursor: pointer;
-    font-family: Extrafont3;
+    font-family: Logofont;
     display: flex;
     max-width: 100%;
 }
@@ -158,7 +172,7 @@ a,button{
     justify-content: center;
     align-items: center;
     padding: 10px;
-    background-color: #b3a79d;
+    background-color: #6a865f;
     text-align: center;
     font-family: Extrafont3;
 }
@@ -177,7 +191,7 @@ a,button{
 }
 
 .text1 button {
-    background-color: #254a2c;
+    background-color: #6d503c;
     color: white;
     padding: 10px 10px;
     border: none;
@@ -188,7 +202,7 @@ a,button{
 }
 
 .text1 button:hover {
-    background-color: #689378;
+    background-color: #8A6240;
 }
 
 /* right side: Image */
@@ -336,6 +350,10 @@ section {
     flex: 1;
     max-width: 60%;
     margin-right: 10px;
+    height: auto;
+    position: relative;
+    border: 1px solid black;
+    padding: 20px;
 }
   
 .about-text h1 {
@@ -562,3 +580,4 @@ section {
 .footer a:hover {
     text-decoration: underline;
 }
+
