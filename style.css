@@ -74,7 +74,7 @@ h4 {
 /*for the homepage*/
 .homebody{
     filter: brightness(70%);
-    background: url(https://images.pexels.com/photos/326281/pexels-photo-326281.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) no-repeat;
+    background: url(website-pictures/homepage-top.jpeg) no-repeat;
     height: 90vh;
     background-size: cover;
     background-position: center;
@@ -84,7 +84,7 @@ h4 {
 
 /*for the about page*/
 .aboutbody{
-    background: url(https://images.pexels.com/photos/462042/pexels-photo-462042.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat;
+    background: url(website-pictures/aboutpage-top.jpeg) no-repeat;
     height: 50vh;
     background-size: cover;
     background-position: center;
@@ -418,7 +418,7 @@ section {
 
 /*menu stuff*/
 .menuheader{
-    background: url("https://images.pexels.com/photos/114974/pexels-photo-114974.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background: url("website-pictures/menu-pic.jpeg");
     height: 90vh;
     background-size: cover;
     background-position: center;
@@ -511,7 +511,7 @@ section {
     align-items: center; 
     text-align: center; 
     height: 80vh; 
-    background: url('https://images.pexels.com/photos/3084550/pexels-photo-3084550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center;
+    background: url('website-pictures/source-pic.jpeg') no-repeat center center;
     background-size: cover;
     position: relative;
 }
