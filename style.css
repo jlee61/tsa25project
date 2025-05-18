@@ -135,7 +135,7 @@ nav li{
     font-family: Extrafont3;
 }
 a,button{
-    font-size: 16px;
+    font-size: 19px;
     font-weight: 500;
     color:#95a595;
     text-decoration: none;
@@ -185,7 +185,7 @@ a,button{
 
 .text1 p {
     margin-bottom: 20px;
-    font-size: 16px;
+    font-size: 19px;
     color: #333;
     font-family: Extrafont3;
 }
@@ -197,7 +197,7 @@ a,button{
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 19px;
     font-family: Extrafont3;
 }
 
@@ -449,7 +449,7 @@ section {
 
 /*dropdown menu for menu*/
 .dropbtn {
-    font-size: 16px;
+    font-size: 19px;
     font-weight: 500;
     color: #95a595;
     text-decoration: none;
