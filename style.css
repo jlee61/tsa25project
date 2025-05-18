@@ -22,6 +22,14 @@
 
 @font-face {
     font-family: Extrafont3;
+    src: url('meltano-1747559441-0/Meltano.otf');
+    font-size: medium;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Extrafont4;
     src: url('CormorantGaramond-Regular.ttf');
     font-size: medium;
     font-weight: 400;
