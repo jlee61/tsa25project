@@ -91,6 +91,15 @@ h4 {
     font-family: Extrafont3;
 }
 
+/*for the takeout*/
+.takeoutbody{
+    background: url(website-pictures/aboutpagesalad.png) no-repeat;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    font-family: Extrafont3;
+}
+
 /*this is for the navigation bar*/
 header{
     width: 100%;
