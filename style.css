@@ -42,6 +42,13 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: Extrafont5;
+    src: url('Lora/Lora-VariableFont_wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
 /*the title font on homepage and ig the menu now*/
 h1 {
     font-weight: bold;
@@ -68,7 +75,7 @@ h3 {
 }
 
 h4 {
-    color: black;
+    color: #1d2b30;
     font-size: 25px;
     padding: 10px 0px;
     padding-bottom: 30px;
@@ -316,7 +323,7 @@ a,button{
 }
 
 .flip-card-back {
-    background-color: rgba(67, 88, 69, 0.88);
+    background-color: #1a1f1be0;
     color: white;
     transform: rotateY(180deg);
     font-size: 20px;
@@ -369,13 +376,13 @@ section {
     margin-right: 10px;
     height: auto;
     position: relative;
-    border: 1px solid black;
     padding: 20px;
+    background-color: #23435e4f;
 }
   
 .about-text h1 {
     font-size: 36px;
-    color: #944242;
+    color: #305f69;
     margin-bottom: 20px;
 }
   
@@ -383,6 +390,7 @@ section {
     font-size: 18px;
     margin-bottom: 20px;
     line-height: 1.8;
+    font-family: Extrafont5;
 }
 
 .menu-text {
@@ -404,7 +412,7 @@ section {
 }
 
 .learn-more-btn {
-    background-color: #a24a69;
+    background-color: #23415e;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -415,7 +423,7 @@ section {
 }
   
 .learn-more-btn:hover {
-    background-color: #872a50;
+    background-color: #1d2b30;
 }
   
 .about-image {
@@ -511,8 +519,8 @@ section {
     font-size: 32px;
     font-weight: bold;
     color: #333; 
-    margin-bottom: 40px; 
-    margin-top: 30px;
+    margin-bottom: 80px; 
+    margin-top: 80px;
 }
 
 .angry-message {
