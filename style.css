@@ -181,6 +181,14 @@ a,button{
     font-family: Extrafont3;
 }
 
+.faq-section {
+    display: flex;
+    flex-direction: column;
+    
+    position: relative;
+    font-family: Extrafont3;
+}
+
 /* left side: Text */
 .text1 {
     flex: 1;
@@ -398,6 +406,24 @@ section {
 }
 
 .menu-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+.faq-text {
+    flex: 1;
+    max-width: 50%;
+    margin-right: 30px;
+}
+
+.faq-text h1 {
+    font-size: 36px;
+    color: #944242;
+    margin-bottom: 20px;
+}
+
+.faq-text p {
     font-size: 18px;
     margin-bottom: 20px;
     line-height: 1.8;
