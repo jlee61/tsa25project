@@ -1,0 +1,119 @@
+[
+    {
+        "id": 1,
+        "name":" Waffles",
+        "price": 12.75,
+        "image": "website-pictures/waffles.jpeg",
+        "description": "Apple cider vinegar mixed in silky soy milk, topped with maple syrup, vegan whipped cream, sweet, ripened strawberries and blueberries.",
+        "Classification": "vegan",
+        "group": "breakfast"
+    },
+    {
+        "id": 2,
+        "name":" Pancakes",
+        "price": 12.55,
+        "image": "website-pictures/pancakes.jpeg",
+        "description": "Smooth, rich vegan butter combined with non-dairy milk from our grass-fed cows raised on local farms. Freshly-plucked strawberries and blueberries can be added accordingly.",
+        "Classification": "vegan",
+        "group": "breakfast"
+    },
+    {
+        "id": 3,
+        "name":" Omelettes",
+        "price": 13.99,
+        "image": "website-pictures/omelette.jpeg",
+        "description": "Pasteurized eggs, creamy butter, grated cheddar cheese, fresh baby spinach leaves, chopped red peppers and cherry tomatoes.",
+        "Classification": "vegetarian, gluten-free",
+        "group": "breakfast"
+    },
+    {
+        "id": 4,
+        "name":" Oatmeal",
+        "price": 7.55,
+        "image": "website-pictures/oatmeal.jpeg",
+        "description": "Gluten free rolled oats, silky coconut milk, rich butter, coated in sweet maple syrup. Optional toppings include: ripe bananas and pears, plump berries (strawberries, blueberries, raspberries, blackberries), crunchy apples.",
+        "Classification": "vegan, nut-free",
+        "group": "breakfast"
+    },
+    {
+        "id": 5,
+        "name":" Strawberry Sorbet",
+        "price": 5.45,
+        "image": "website-pictures/strawberrysorbet.jpeg",
+        "description": "Juicy strawberries mixed with sweet syrup.",
+        "Classification": "vegan",
+        "group": "dessert"
+    },
+    {
+        "id": 6,
+        "name":" Berry Acai Bowl",
+        "price": 6.55,
+        "image": "website-pictures/acai-bowl.jpeg",
+        "description": "Assortment of mixed berries (strawberries, blueberries, raspberries, blackberries - customizable by customers), ripe bananas, crunchy nuts, and chia seeds.",
+        "Classification": "vegan",
+        "group": "dessert"
+    },
+    {
+        "id": 7,
+        "name":" Crepes",
+        "price": 7.75,
+        "image": "website-pictures/crepes.jpeg",
+        "description": "Avocado oil mixed with creamy soy milk. Optional toppings: soft berries (strawberries, blueberries, raspberries, blackberries), sliced fruits (apples, pears, pineapples), rich maple syrup, vegan whipped cream.",
+        "Classification": "vegan, dairy-free",
+        "group": "dessert"
+    },
+    {
+        "id": 8,
+        "name":" Strawberry Banana Smoothie",
+        "price": 5.75,
+        "image": "website-pictures/strawberry-banana.jpeg",
+        "description": "Ripe banana, medjool dates, creamy almond and coconut milk, frozen strawberries.",
+        "Classification": "vegan",
+        "group": "drink"
+    },
+    {
+        "id": 9,
+        "name":" Mango Smoothie",
+        "price": 5.25,
+        "image": "website-pictures/mango.jpeg",
+        "description": " Soft banana, frozen mango chunks, vanilla almond milk, and dairy-free coconut yogurt.",
+        "Classification": "vegan",
+        "group": "drink"
+    },
+    {
+        "id": 10,
+        "name":" Vanilla Milkshake",
+        "price": 4.75,
+        "image": "website-pictures/vanilla.jpeg",
+        "description": "Vegan vanilla ice cream, non-dairy milk, and vanilla extract.",
+        "Classification": "vegan",
+        "group": "drink"
+    },
+    {
+        "id": 11,
+        "name":" Iced Coffee",
+        "price": 6.15,
+        "image": "website-pictures/iced-coffee.jpeg",
+        "description": "Vegan milk, coffee grounds. Customizable: organic sugar, vanilla extract for Vanilla Iced Coffee, or sweet maple syrup, cocoa powder for Iced Mocha.",
+        "Classification": "vegan",
+        "group": "drink"
+    },
+    {
+        "id": 12,
+        "name":" Jasmine Iced Tea",
+        "price": 5.45,
+        "image": "website-pictures/jasmine-tea.jpeg",
+        "description": "Jasmine green tea, light agave sweetener.",
+        "Classification": "vegan",
+        "group": "drink"
+    },
+    {
+        "id": 13,
+        "name":" London Fog Tea Latte",
+        "price": 6.25,
+        "image": "website-pictures/london-tea-latte.jpeg",
+        "description": "Earl Grey tea, plant-based milk (almond milk or oat milk), granulated sugar.",
+        "Classification": "vegan",
+        "group": "drink"
+    }
+]
