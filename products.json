@@ -39,7 +39,7 @@
         "id": 5,
         "name":" Strawberry Sorbet",
         "price": 5.45,
-        "image": "website-pictures/strawberrysorbet.jpeg",
+        "image": "website-pictures/sorbet.jpg",
         "description": "Juicy strawberries mixed with sweet syrup.",
         "Classification": "vegan",
         "group": "dessert"
@@ -102,7 +102,7 @@
         "id": 12,
         "name":" Jasmine Iced Tea",
         "price": 5.45,
-        "image": "website-pictures/jasmine-tea.jpeg",
+        "image": "website-pictures/jasmine-tea.jpg",
         "description": "Jasmine green tea, light agave sweetener.",
         "Classification": "vegan",
         "group": "drink"
@@ -115,5 +115,158 @@
         "description": "Earl Grey tea, plant-based milk (almond milk or oat milk), granulated sugar.",
         "Classification": "vegan",
         "group": "drink"
+    },
+    {
+        "id": 14,
+        "name":" Greek Salad",
+        "price": 5.75,
+        "image": "website-pictures/greek-salad.jpeg",
+        "description": "Our Greek Salad is a careful selection of leafy greens, crisp cucumbers, sliced onions, ripened cherry tomatoes and olives, and our homemade almond feta, topped with our signature herb dressing.",
+        "Classification": "vegetarian, gluten-free",
+        "group": "appetizers"
+    },
+    {
+        "id": 15,
+        "name":" Golden Beet Salad",
+        "price": 5.75,
+        "image": "website-pictures/golden-beet-salad.jpeg",
+        "description": "This vibrant assortment of fresh vegetables and fruits comprises canary-yellow beets, sliced oranges, garden-harvested mint, crunchy pistachios, our homemade almond feta, completed with our gluten-free balsamic vinegar and vinaigrette oil.",
+        "Classification": "vegetarian, gluten-free",
+        "group": "appetizers"
+    },
+    {
+        "id": 16,
+        "name":" Kale Salad",
+        "price": 5.65,
+        "image": "website-pictures/kale-salad.jpeg",
+        "description": "Our Kale Salad consists of a variety of vegan pepita parmesan, savory capers, mildly bitter kale, golden-brown croutons, tender butter lettuce leaves, finalized with our gluten-free tahini caper dressing.",
+        "Classification": "vegetarian, gluten-free",
+        "group": "appetizers"
+    },
+    {
+        "id": 17,
+        "name":" Tofu Salad",
+        "price": 6.25,
+        "image": "website-pictures/tofu-salad.jpeg",
+        "description": "The Tofu Salad is a flavorful combination of garden greens and produce: Romaine lettuce, freshly-prepared cucumbers, plump tomatoes, sweet corn kernels, creamy, sliced avocados, diced scallions, and crispy, fried tofu, all coated in tahini sauce.",
+        "Classification": "vegan, gluten-free",
+        "group": "appetizers"
+    },
+    {
+        "id": 18,
+        "name":" Loaded Sweet Potato Fries",
+        "price": 5.25,
+        "image": "website-pictures/sweet-potato-fries.jpeg",
+        "description": "This mouth-watering starter consists of warm, crispy sweet potato fries baked straight out of the oven, decorated in cilantro and diced onions, topped with the Vegan Chipotle Sauce.",
+        "Classification": "vegan",
+        "group": "appetizers"
+    },
+    {
+        "id": 19,
+        "name":" Breadsticks",
+        "price": 2.75,
+        "image": "website-pictures/breadsticks.jpg",
+        "description": "Our classic homemade, buttery breadsticks, sprinkled with garlic powder.",
+        "Classification": "vegetarian",
+        "group": "appetizers"
+    },
+    {
+        "id": 20,
+        "name":" Veggie Burgers",
+        "price": 13.55,
+        "image": "website-pictures/veggie-burger.jpg",
+        "description": "Chopped walnuts and shallots, toasted bread, vegan Worcestershire sauce, minced garlic, a variety of mushrooms (shiitake, portobello), steamed brown rice.",
+        "Classification": "vegan",
+        "group": "lunch"
+    },
+    {
+        "id": 21,
+        "name":" Veggie Pizza",
+        "price": 15.75,
+        "image": "website-pictures/veggie-pizza.jpeg",
+        "description": "(Standard) fluffy pizza dough, savory marinara sauce, sprinkled baby spinach leaves, shredded mozzarella cheese, sliced red peppers, cherry tomatoes, crunchy olives. Optional toppings: bite-size artichokes, sliced onions.",
+        "Classification": "vegetarian",
+        "group": "lunch"
+    },
+    {
+        "id": 22,
+        "name":" Lentil Tacos",
+        "price": 15.25,
+        "image": "website-pictures/lentil-tacos.jpeg",
+        "description": "An assortment of herbs (chili powder, ground cumin, garlic powder, paprika), soft tortillas, savory vegetable broth and lentils, tomato salsa.",
+        "Classification": "vegan",
+        "group": "lunch"
+    },
+    {
+        "id": 23,
+        "name":" Quinoa Bowl",
+        "price": 14.75,
+        "image": "website-pictures/quinoa-bowl.jpeg",
+        "description": "Diced green onions, crunchy red bell peppers, zucchini, and olives, covered in vegan tzatziki sauce.",
+        "Classification": "vegan",
+        "group": "lunch"
+    },
+    {
+        "id": 24,
+        "name":" Vegan Chicken Tenders",
+        "price": 10.99,
+        "image": "website-pictures/chicken-tenders.jpeg",
+        "description": "Firm tofu, flour, tart pickle juice, non-dairy milk, and an assortment of seasonings (paprika, black pepper, garlic powder, onion powder), decorated in buffalo sauce (or mayonnaise).",
+        "Classification": "vegan",
+        "group": "lunch"
+    },
+    {
+        "id": 25,
+        "name":" Classic Spaghetti",
+        "price": 14.99,
+        "image": "website-pictures/spaghetti.jpeg",
+        "description": "Diced onions and garlic, chopped tomatoes, fresh basils, balsamic vinaigrette, Parmesan cheese, and soft spaghetti noodles.",
+        "Classification": "vegetarian",
+        "group": "dinner"
+    },
+    {
+        "id": 26,
+        "name":" Ratatouille",
+        "price": 16.75,
+        "image": "website-pictures/Ratatouille.jpg",
+        "description": "Sliced tomatoes, eggplants, and zucchinis, shredded carrots, chopped garlic and onions, sprinkled with assorted herbs.",
+        "Classification": "vegan",
+        "group": "dinner"
+    },
+    {
+        "id": 27,
+        "name":" Curry",
+        "price": 16.25,
+        "image": "website-pictures/curry.jpeg",
+        "description": "A mixture of aromatics (paprika, nutmeg, cinnamon), boiled tofu, tomato sauce, crunchy cauliflower, fresh baby spinach, and silky coconut milk.",
+        "Classification": "vegan",
+        "group": "dinner"
+    },
+    {
+        "id": 28,
+        "name":" Pasta e Fagioli",
+        "price": 15.05,
+        "image": "website-pictures/pasta-e-fagoli.jpg",
+        "description": "Diced tomatoes and onions, peeled garlic, savory tomato paste, fresh herbs (rosemary and thyme), warm vegetable broth, soft beans, small pasta shells, crispy celery and carrots.",
+        "Classification": "vegan",
+        "group": "dinner"
+    },
+    {
+        "id": 29,
+        "name":" Kimbap",
+        "price": 14.75,
+        "image": "website-pictures/kimbap.jpeg",
+        "description": "Firm tofu, crunchy cucumber and carrot, warm rice, ripe avocado, soft cream cheese",
+        "Classification": "vegetarian",
+        "group": "dinner"
+    },
+    {
+        "id": 30,
+        "name":" Pad Thai",
+        "price": 15.75,
+        "image": "website-pictures/pad-thai.jpeg",
+        "description": "Vegan, rice noodles, firm, fried tofu, soy sauce (contains gluten), sweet maple syrup, tart lime juice, sprinkle of green onions. Optional toppings include: lime wedges, mung bean sprouts, chopped peanuts, and cilantro.",
+        "Classification": "vegan",
+        "group": "dinner"
     }
 ]

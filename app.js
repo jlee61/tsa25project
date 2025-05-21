@@ -15,39 +15,65 @@ closeCart.addEventListener('click', () => {
     body.classList.toggle('showCart');
 })
 
-    const addDataToHTML = () => {
-    // remove datas default from HTML
-
-        // add new datas
-        if(products.length > 0) // if has data
-        {
-            products.forEach(product => {
-                let newProduct = document.createElement('div');
-                newProduct.dataset.id = product.id;
-                newProduct.classList.add('item');
-                newProduct.innerHTML = 
-                `<div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                            <img src="${product.image}" alt="Waffles">
-                            <div class="overlay-text">${product.name}</div>
-                        </div>
-                        <div class="flip-card-back">
-                            <div class="cardgrouping">
-                                <div class="description">
-                                    <p>${product.description || ''}</p>
-                                </div>
-                                <div class="Classification"><b>(${product.Classification})</b></div>
-                                <button class="addCart" data-id="${product.id}">Add To Cart</button>
-                            </div>
-                            <div class="price">$${product.price}</div>
-                        </div>
-                    </div>
-                </div>`;
-                listProductHTML.appendChild(newProduct);
-            });
-        }
+const getProductsByCategory = (categories) => {
+    if (!Array.isArray(categories)) {
+        categories = [categories];
     }
+    return products.filter(product =>
+        categories.includes(product.group.toLowerCase())
+    );
+}
+
+
+const addDataToHTML = (categories = null) => {
+    listProductHTML.innerHTML = '';
+
+    let categoryList = Array.isArray(categories) ? categories : categories ? [categories] : [];
+
+    // If no specific category passed, show all
+    if (categoryList.length === 0) {
+        categoryList = [...new Set(products.map(p => p.group.toLowerCase()))]; // all unique groups
+    }
+
+    categoryList.forEach(group => {
+        // Add a heading for each group
+        const header = document.createElement('h5');
+        header.textContent = `${capitalize(group)}`;
+        listProductHTML.appendChild(header);
+
+        const filteredProducts = getProductsByCategory(group);
+        filteredProducts.forEach(product => {
+            let newProduct = document.createElement('div');
+            newProduct.dataset.id = product.id;
+            newProduct.classList.add('item');
+            newProduct.innerHTML = 
+            `<div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="${product.image}" alt="${product.name}">
+                        <div class="overlay-text">${product.name}</div>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="cardgrouping">
+                            <div class="description">
+                                <p>${product.description || ''}</p>
+                            </div>
+                            <div class="Classification"><b>(${product.Classification})</b></div>
+                            <button class="addCart" data-id="${product.id}">Add To Cart</button>
+                        </div>
+                        <div class="price">$${product.price}</div>
+                    </div>
+                </div>
+            </div>`;
+            listProductHTML.appendChild(newProduct);
+        });
+    });
+}
+
+// Capitalize first letter for headers
+const capitalize = (str) => str.charAt(0).toUpperCase() + str.slice(1);
+    
+
     listProductHTML.addEventListener('click', (event) => {
         let positionClick = event.target;
         if(positionClick.classList.contains('addCart')){
@@ -148,7 +174,7 @@ const initApp = () => {
     .then(response => response.json())
     .then(data => {
         products = data;
-        addDataToHTML();
+        addDataToHTML(['appetizers','breakfast', 'lunch', 'dinner', 'dessert', 'drink']);
 
         // get data cart from memory
         if(localStorage.getItem('cart')){

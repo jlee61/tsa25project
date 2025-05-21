@@ -81,6 +81,19 @@ h4 {
 
 }
 
+
+h5 {
+    font-weight: bold;
+    color: #185325da;
+    font-size: 50px;
+    font-family: Extrafont3;
+    margin: 20px 0 20px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    grid-column: 1 / -1;
+  }
+
 .shadow {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
 }
@@ -677,7 +690,9 @@ svg{
     border-radius: 20px;
 }
 .extra-padding {
-    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
 }
 .listProduct .item h2{
     font-weight: 500;
@@ -697,8 +712,7 @@ svg{
 }
 
 .page-wrapper {
-  position: relative;
-  height: 100vh;       
+  position: relative;      
   overflow-y: auto;    
 }
 /* cart */
