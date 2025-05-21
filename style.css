@@ -166,7 +166,7 @@ a,button{
     color:#95a595;
     text-decoration: none;
     cursor: pointer;
-    font-family: Extrafont3;
+    font-family: Extrafont4;
 }
 
 /*this is the main title ig name*/
@@ -392,7 +392,7 @@ section {
     font-size: 18px;
     margin-bottom: 20px;
     line-height: 1.8;
-    font-family: Extrafont5;
+    font-family: Extrafont4;
 }
 
 .faq-section {
@@ -611,7 +611,7 @@ section {
     color: white;
     text-align: center;
     padding: 20px 10px;
-    font-family: Extrafont3;
+    font-family: Extrafont4;
 }
 
 .footer-container {
@@ -635,7 +635,7 @@ section {
 
 body{
     margin: 0;
-    font-family: Extrafont3;
+    font-family: 4;
 }
 
 
