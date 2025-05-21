@@ -186,6 +186,7 @@ const initApp = () => {
     })
 }
 
+
 initApp();
 
 if (checkOutBtn) {
@@ -195,6 +196,10 @@ if (checkOutBtn) {
         window.location.href = 'thankyou.html';
     });
 }
+
+
+
+
 
 
 /*                `<img src="${product.image}" alt="">

@@ -26,7 +26,7 @@ html {
 
 @font-face {
     font-family: Extrafont3;
-    src: url('meltano-1747559441-0/Meltano.otf');
+    src: url('alta/alta-regular.otf');
     font-size: medium;
     font-weight: 400;
     font-style: normal;
@@ -34,7 +34,7 @@ html {
 
 @font-face {
     font-family: Extrafont4;
-    src: url('CormorantGaramond-Regular.ttf');
+    src: url('Lora/Lora-VariableFont_wght.ttf');
     font-size: medium;
     font-weight: 400;
     font-style: normal;
@@ -445,6 +445,63 @@ section {
     line-height: 1.8;
 }
 
+.faq-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.faq-item {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.faq-question {
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+  font-size: 1.2rem;
+  color: #502d2d;
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.faq-question .icon {
+  transition: transform 0.3s ease;
+}
+
+.faq-question:focus {
+  outline: none;
+}
+
+.icon {
+  font-size: 1.5rem;
+  color: #944242;
+}
+
+.faq-answer {
+  max-height: 0;
+  padding: 10px;
+  font-size: 1rem;
+  color: #555;
+  transition: max-height 0.5s ease;
+  overflow: hidden;
+}
+
+.faq-answer.open {
+  max-height: 500px; 
+}
+
+.faq-question.active .icon {
+  content: "-";
+}
+
+
 .menu-text {
     flex: 1;
     max-width: 50%;
@@ -741,7 +798,7 @@ svg{
 .cartTab{
     width: 400px;
     height: 87vh;
-    background-color: #353432;
+    background-color: #a1b662;
     color: #eee;
     position: fixed;
     top: 80px;
@@ -842,10 +899,15 @@ button.addCart:hover {
     z-index: 1000;
     padding: 21px 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     border-bottom: 1px solid #ddd;
     z-index: 101;
+}
+
+
+.stickynav {
+    padding-right: 22px;
 }
 
 .stickynav a {
@@ -883,6 +945,8 @@ button.addCart:hover {
 .sticky-header .icon-cart {
     cursor: pointer;
 }
+
+
 
 
 
