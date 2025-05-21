@@ -4,6 +4,7 @@ let iconCart = document.querySelector('.icon-cart');
 let iconCartSpan = document.querySelector('.icon-cart span');
 let body = document.querySelector('body');
 let closeCart = document.querySelector('.close');
+let checkOutBtn = document.querySelector('.checkOut');
 let products = [];
 let cart = [];
 
@@ -184,7 +185,17 @@ const initApp = () => {
         }
     })
 }
+
 initApp();
+
+if (checkOutBtn) {
+    checkOutBtn.addEventListener('click', () => {
+        cart = [];
+        localStorage.removeItem('cart');
+        window.location.href = 'thankyou.html';
+    });
+}
+
 
 /*                `<img src="${product.image}" alt="">
                 <h2>${product.name}</h2>
