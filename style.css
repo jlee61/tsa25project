@@ -4,6 +4,11 @@
     box-sizing: border-box;
     
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 /*Original is 'courier-new', 'Courier New', monospace*/
 @font-face {
     font-family: Italicfont;
@@ -48,7 +53,6 @@
     font-weight: normal;
     font-style: normal;
 }
-/*the title font on homepage and ig the menu now*/
 h1 {
     font-weight: bold;
     color: #ffffff;
@@ -84,7 +88,7 @@ h4 {
 
 h5 {
     font-weight: bold;
-    color: #185325da;
+    color: #18183bda;
     font-size: 50px;
     font-family: Extrafont3;
     margin: 20px 0 20px;
@@ -121,7 +125,7 @@ h5 {
 /*for the takeout*/
 .takeoutbody{
     background: url(website-pictures/aboutpagesalad.png) no-repeat;
-    height: 50vh;
+    height: 70vh;
     background-size: cover;
     background-position: center;
     font-family: Extrafont3;
@@ -166,13 +170,21 @@ header{
     padding-right: 10px;
 }
 
-/*this is the navi bar options*/
 nav li{
+    color: black;
     display: inline-block;
     list-style: none;
     padding: 0px 20px;
     font-family: Extrafont3;
 }
+
+nav ul li a:hover {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+    background-color: #e6e6e6; 
+    padding: 2px 0px;
+    border-radius: 2px;
+}
+
 a,button{
     font-size: 19px;
     font-weight: 500;
@@ -330,7 +342,7 @@ a,button{
     text-align: center;
     color: white;
     z-index: 2;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(1, 2, 10, 0.7);
     padding: 20px 1000px;
     white-space:nowrap;
     border-radius: 1px;
@@ -338,7 +350,7 @@ a,button{
 }
 
 .flip-card-back {
-    background-color: #1a1f1be0;
+    background-color: #080d14e0;
     color: white;
     transform: rotateY(180deg);
     font-size: 16px;
@@ -656,6 +668,13 @@ svg{
     width: 30px;
 }
 
+.icon-cart:hover {
+    background-color: rgb(209, 209, 209);
+    width: 30px;
+    border-radius: 20px;
+    height: 37px;
+}
+
 .icon-cart{
     position: relative;
 }
@@ -797,20 +816,67 @@ body.showCart .container{
     width: 0;
 }
 
+button.addCart {
+  background-color: #23415e !important; 
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button.addCart:hover {
+  background-color: #1a3246 !important; /* Darker shade for hover */
+}
+
+
 .sticky-header {
     position: sticky;
     top: 0;
     background-color: white;
     z-index: 1000;
-    padding: 10px 20px;
+    padding: 21px 20px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #ddd;
     z-index: 101;
 }
 
-/* Optional: make the cart smaller here */
+.stickynav a {
+  position: relative;
+  text-decoration: none;
+  padding: 8px 0;
+  font-weight: bold;
+  color: rgb(95, 95, 95);
+
+}
+
+.stickynav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px; 
+  width: 100%;
+  height: 2px;
+  background-color: rgb(95, 95, 95);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+
+.stickynav a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+
+.sticky-header a {
+    padding: 8px 12px;
+}
+
 .sticky-header .icon-cart {
     cursor: pointer;
 }
