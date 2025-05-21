@@ -4,6 +4,7 @@
     box-sizing: border-box;
     
 }
+
 /*Original is 'courier-new', 'Courier New', monospace*/
 @font-face {
     font-family: Italicfont;
@@ -129,7 +130,7 @@ h5 {
 
 /*this is for the navigation bar*/
 header{
-    position: sticky;
+    position: absolute;
     top: 0;
     z-index: 1000;
     width: 100%;
@@ -579,25 +580,28 @@ section {
     background: url('website-pictures/source-pic.jpeg') no-repeat center center;
     background-size: cover;
     position: relative;
+    padding-bottom: 4rem;
 }
 
 .source-box {
     background-color: rgba(49, 68, 51, 0.88); 
     color: white;
-    padding: 7px;
+    padding: 30px;
     border-radius: 10px;
     max-width: 600px;
     width: 80%;
+    margin-top: 150px;
+    
 }
 
 .source-box h1 {
     font-size: 36px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .source-box p {
     font-size: 18px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .source-box ul {
@@ -606,7 +610,7 @@ section {
 }
 
 .source-box li {
-    margin: 10px 0;
+    margin: 9px 0;
 }
 
 .source-box a {
@@ -846,11 +850,14 @@ body.showCart .container{
     position: relative;
     width: 100%;
     margin: 0;
+    position: relative;
+    z-index: 1;
+    
 
 }
 .slider {
     display: flex;
-    aspect-ratio: 16 / 6;
+    aspect-ratio: 16 / 7;
     overflow-x: auto;
     scroll-snap-type: x mandatory; 
     scroll-behavior: smooth;
