@@ -815,7 +815,9 @@ body.showCart .container{
 
 
 /*SLIDE SHOW*/
+
 .containerr {
+    margin: 0;
     padding: 0;
 }
 .slider-wrapper {
@@ -831,7 +833,12 @@ body.showCart .container{
     scroll-snap-type: x mandatory; 
     scroll-behavior: smooth;
     box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
-
+    /* Hide scrollbar cross-browser */
+    scrollbar-width: none; /* Firefox bums*/
+    -ms-overflow-style: none; /* herro */
+}
+.slider::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Edge */
 }
 .slider img{
     flex: 1 0 100%;
