@@ -107,34 +107,46 @@ const addCartToMemory = () => {
 const addCartToHTML = () => {
     listCartHTML.innerHTML = '';
     let totalQuantity = 0;
-    if(cart.length > 0){
+    let totalPrice = 0;
+
+    if (cart.length > 0) {
         cart.forEach(item => {
-            totalQuantity = totalQuantity +  item.quantity;
+            totalQuantity += item.quantity;
             let newItem = document.createElement('div');
             newItem.classList.add('item');
             newItem.dataset.id = item.product_id;
 
             let positionProduct = products.findIndex((value) => value.id == item.product_id);
             let info = products[positionProduct];
-            listCartHTML.appendChild(newItem);
+            totalPrice += info.price * item.quantity;
+
             newItem.innerHTML = `
-            <div class="image">
+                <div class="image">
                     <img src="${info.image}">
                 </div>
                 <div class="name">
-                ${info.name}
+                    ${info.name}
                 </div>
-                <div class="totalPrice">$${info.price * item.quantity}</div>
+                <div class="totalPrice">$${(info.price * item.quantity).toFixed(2)}</div>
                 <div class="quantity">
                     <span class="minus"><</span>
                     <span>${item.quantity}</span>
                     <span class="plus">></span>
                 </div>
             `;
-        })
+            listCartHTML.appendChild(newItem);
+        });
     }
+
     iconCartSpan.innerText = totalQuantity;
+
+    // Update the total price in the DOM
+    const totalElement = document.getElementById('cart-total');
+    if (totalElement) {
+        totalElement.innerText = totalPrice.toFixed(2);
+    }
 }
+
 
 listCartHTML.addEventListener('click', (event) => {
     let positionClick = event.target;
@@ -191,9 +203,17 @@ initApp();
 
 if (checkOutBtn) {
     checkOutBtn.addEventListener('click', () => {
+        document.getElementById('checkoutModalOverlay').style.display = 'flex';
+    });
+
+    document.getElementById('confirmCheckout').addEventListener('click', () => {
         cart = [];
         localStorage.removeItem('cart');
         window.location.href = 'thankyou.html';
+    });
+
+    document.getElementById('cancelCheckout').addEventListener('click', () => {
+        document.getElementById('checkoutModalOverlay').style.display = 'none';
     });
 }
 

@@ -17,14 +17,7 @@
             <ul>
                 <li><a href="index.html">Welcome</a></li>
                 <li><a href="about.html">About</a></li>
-                <li class="dropdown">
-                    <a href="menu.html" class="dropbtn">Menu</a>
-                    <div class="dropdown-content">
-                        <a href="menu_breakfast.html">Breakfast</a>
-                        <a href="menu_lunch.html">Lunch</a>
-                        <a href="menu_dinner.html">Dinner</a>
-                    </div>
-                </li>
+                <li><a href="menu.html">Menu</a></li>
                 <li><a href="takeout.html">Take Out</a></li>
                 <li><a href="Resources.html">Resources</a></li>
             </ul>
@@ -56,14 +49,25 @@
             <div class="cartTab">
                 <h6>Shopping Cart</h6>
                 <div class="listCart"></div>
+                <div class="cartTotal">
+                    <p>Total: $<span id="cart-total">0.00</span></p>
+                </div>
                 <div class="btn">
                     <button class="close">CLOSE</button>
                     <button class="checkOut" >Check Out</button>
                 </div>
             </div>
         </div>
+        <div class="checkout-modal-overlay" id="checkoutModalOverlay">
+            <div class="checkout-modal">
+                <p>Are you sure you want to proceed to checkout?</p>
+                <div class="modal-buttons">
+                    <button id="confirmCheckout">Yes</button>
+                    <button id="cancelCheckout">Cancel</button>
+                </div>
+            </div>
+        </div>
         <script src="app.js"></script>
-
         <footer class="footer">
         <div class="footer-container">
             <div class="footer-logo">
@@ -73,13 +77,10 @@
                 <a href="index.html">Welcome</a>
                 <a href="about.html">About Us</a>
                 <a href="menu.html">Overall Menu</a>
-                <a href="menu_breakfast.html">Breakfast</a>
-                <a href="menu_dinner.html">Dinner</a>
-                <a href="menu_lunch.html">Lunch</a>
                 <a href="takeout.html">Take Out</a>
                 <a href="Resources.html">Resources</a>
             </div>
-            <p>Please hover or click the images on the different menus.</p>
+            <p>Please hover or click the images on the take out section.</p>
             <p>TSA Webmasters 2025</p>
         </div>
     </footer>
