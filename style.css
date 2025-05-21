@@ -223,7 +223,7 @@ a,button{
     background-color: #54634e;
     text-align: center;
     font-family: Extrafont4;
-    color: #0d1d10;
+    color: #fafbfa;
 }
 
 .text1 h1 {
@@ -303,7 +303,7 @@ a,button{
     background-color: #2a3825;
     text-align: center;
     font-family: Extrafont4;
-    color: #010201;
+    color: #ecf2ec;
 }
 .text2 h1 {
     margin-bottom: 20px;
@@ -686,8 +686,8 @@ section {
     background: url('website-pictures/source-pic.jpeg') no-repeat center center;
     background-size: cover;
     position: relative;
-    padding-bottom: 4rem;
-    padding-top: 120px;
+    padding-bottom: 5rem;
+    padding-top: 10px;
 }
 
 .source-box {
@@ -1117,6 +1117,7 @@ button.addCart:hover {
 .reviews-section h2 {
   font-size: 2rem;
   margin-bottom: 30px;
+  color: #fffd
 }
 
 .reviews-container {
