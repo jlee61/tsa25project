@@ -1032,6 +1032,8 @@ button.addCart:hover {
 
 }
 .slider {
+    width: 100vw; /* Force slider to be exactly screen width */
+    max-width: 100%;
     display: flex;
     aspect-ratio: 16 / 7;
     overflow-x: auto;
@@ -1046,9 +1048,10 @@ button.addCart:hover {
     display: none; /* Chrome, Safari, Edge */
 }
 .slider img{
-    flex: 1 0 100%;
-    scroll-snap-align: start;
+    flex: 0 0 100vw; /* Take exactly one full screen width */
+    height: auto;
     object-fit: cover;
+    scroll-snap-align: start;
 }
 .slider-nav {
     display: flex;
