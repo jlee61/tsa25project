@@ -69,7 +69,7 @@
         "image": "website-pictures/strawberry-banana.jpeg",
         "description": "Ripe banana, medjool dates, creamy almond and coconut milk, frozen strawberries.",
         "Classification": "vegan",
-        "group": "drink"
+        "group": "drinks"
     },
     {
         "id": 9,
@@ -78,7 +78,7 @@
         "image": "website-pictures/mango.jpeg",
         "description": " Soft banana, frozen mango chunks, vanilla almond milk, and dairy-free coconut yogurt.",
         "Classification": "vegan",
-        "group": "drink"
+        "group": "drinks"
     },
     {
         "id": 10,
@@ -87,7 +87,7 @@
         "image": "website-pictures/vanilla.jpeg",
         "description": "Vegan vanilla ice cream, non-dairy milk, and vanilla extract.",
         "Classification": "vegan",
-        "group": "drink"
+        "group": "drinks"
     },
     {
         "id": 11,
@@ -96,7 +96,7 @@
         "image": "website-pictures/iced-coffee.jpeg",
         "description": "Vegan milk, coffee grounds. Customizable: organic sugar, vanilla extract for Vanilla Iced Coffee, or sweet maple syrup, cocoa powder for Iced Mocha.",
         "Classification": "vegan",
-        "group": "drink"
+        "group": "drinks"
     },
     {
         "id": 12,
@@ -105,7 +105,7 @@
         "image": "website-pictures/jasmine-tea.jpg",
         "description": "Jasmine green tea, light agave sweetener.",
         "Classification": "vegan",
-        "group": "drink"
+        "group": "drinks"
     },
     {
         "id": 13,
@@ -114,7 +114,7 @@
         "image": "website-pictures/london-tea-latte.jpeg",
         "description": "Earl Grey tea, plant-based milk (almond milk or oat milk), granulated sugar.",
         "Classification": "vegan",
-        "group": "drink"
+        "group": "drinks"
     },
     {
         "id": 14,

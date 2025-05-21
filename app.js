@@ -39,6 +39,7 @@ const addDataToHTML = (categories = null) => {
         // Add a heading for each group
         const header = document.createElement('h5');
         header.textContent = `${capitalize(group)}`;
+        header.id = group.toLowerCase();
         listProductHTML.appendChild(header);
 
         const filteredProducts = getProductsByCategory(group);
@@ -174,7 +175,7 @@ const initApp = () => {
     .then(response => response.json())
     .then(data => {
         products = data;
-        addDataToHTML(['appetizers','breakfast', 'lunch', 'dinner', 'dessert', 'drink']);
+        addDataToHTML(['appetizers','breakfast', 'lunch', 'dinner', 'dessert', 'drinks']);
 
         // get data cart from memory
         if(localStorage.getItem('cart')){
